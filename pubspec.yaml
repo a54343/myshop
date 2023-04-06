@@ -1,0 +1,42 @@
+name: soping
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_svg: ^1.1.6
+  carousel_slider: ^4.1.1
+  google_fonts: ^3.0.1
+  animated_theme_switcher: ^2.0.7
+  animate_do: ^3.0.2
+  get: ^4.6.5
+  dio: ^5.0.3
+  shared_preferences: ^2.0.20
+  liquid_swipe: ^3.0.0
+  smooth_page_indicator: ^1.0.0+2
+  city_pickers: ^1.2.1
+  accordion: ^2.5.1
+  awesome_card: ^1.1.7
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/splash_images/
+    - assets/images/welcome_images/
+    - assets/images/on_boarding_images/
